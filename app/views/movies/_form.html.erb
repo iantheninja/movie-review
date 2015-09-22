@@ -1,4 +1,4 @@
-<%= form_for @movie, html: { multipart: true, class: 'form-horizontal'} do |f| %>
+<%= form_for @movie, html: { multipart: true, class: 'form-horizontal center'} do |f| %>
   <% if @movie.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
@@ -12,27 +12,27 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title, class: 'text-primary' %><br>
+    <%= f.label :title, class: 'comp-color' %><br>
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.label :description, class: 'comp-color' %><br>
+    <%= f.text_area :description, class: 'comp-color' %>
   </div>
   <div class="field">
-    <%= f.label :movie_length %><br>
+    <%= f.label :movie_length, class: 'comp-color' %><br>
     <%= f.text_field :movie_length %>
   </div>
   <div class="field">
-    <%= f.label :director %><br>
+    <%= f.label :director, class: 'comp-color' %><br>
     <%= f.text_field :director %>
   </div>
   <div class="field">
-    <%= f.label :rating %><br>
+    <%= f.label :rating, class: 'comp-color' %><br>
     <%= f.text_field :rating %>
   </div>
   <div class="field">
-    <%= f.label :image %><br>
+    <%= f.label :image, class: 'comp-color' %><br>
     <%= f.file_field :image %>
   </div>
   <div class="actions">

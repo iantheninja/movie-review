@@ -46,6 +46,7 @@ GEM
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.3.0)
+    bootstrap_form (2.3.0)
     builder (3.2.2)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -197,6 +198,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.5.1)
+  bootstrap_form
   coffee-rails (~> 4.1.0)
   debugger
   devise (~> 3.4.0)

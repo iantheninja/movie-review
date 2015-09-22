@@ -11,7 +11,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'searchkick', '~> 0.8.3'
+gem 'searchkick', '~> 0.8.3'#implements search
+gem 'bootstrap_form'#for bootstrap forms
 
 group :development, :test do
   gem 'debugger'
