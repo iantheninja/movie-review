@@ -1,27 +1,27 @@
 source 'https://rubygems.org'
 
 gem 'rails'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'devise', '~>3.4.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'devise'
 gem 'paperclip'
-gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'searchkick', '~> 0.8.3'#implements search
+gem 'searchkick' #implements search
 gem 'bootstrap_form'#for bootstrap forms
 
 group :development, :test do
   gem 'debugger2', :git => "git://github.com/ko1/debugger2.git"
   gem 'sqlite3'
-  gem 'web-console', '~> 2.0'
+  gem 'web-console'
   gem 'spring'
 end
 
 group :production do
-  gem 'pg',             '0.17.1'
-  gem 'rails_12factor', '0.0.2'
+  gem 'pg'
+  gem 'rails_12factor'
 end
